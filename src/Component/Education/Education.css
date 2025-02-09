@@ -1,0 +1,126 @@
+.education {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+  margin: 80px 170px;
+  }
+  
+  .education-title {
+    position: relative;
+  }
+  
+  .education-title h1 {
+    padding: 0px 30px;
+    font-size: 80px;
+    font-weight: 600; /* Darker shade for better contrast */
+  }
+  
+  .education-title img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+  }
+  
+  .education-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:40px;
+  }
+  
+  .education-card {
+    background: #f0e9e9;
+    border-radius: 20px; /* Softer corners */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .education-card:hover {
+    transform: scale(1.10);
+    border: 2px solid #6a11cb;
+    border-radius: 10px;
+    transition: 0.3s; /* Slightly stronger hover shadow */
+  }
+  
+  .education-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .education-details {
+    padding: 25px;
+    background: #f9fafb; /* Soft background for details section */
+    border-top: 2px solid #e2e8f0; /* Adds a clean separation */
+  }
+  
+  .education-details h2 {
+    font-size: 1.6rem;
+    color: #1a202c; /* Bold text color for headings */
+    margin-bottom: 12px;
+  }
+  
+  .education-details p {
+    font-size: 1rem;
+    color: #4a5568; /* Subtle text color for descriptions */
+    margin: 6px 0;
+  }
+  
+  .education-map-link {
+    display: inline-block;
+    margin-top: 12px;
+    font-size: 0.95rem;
+    color: #3182ce; /* Blue for links */
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: color 0.3s, border-bottom 0.3s;
+  }
+  
+  .education-map-link:hover {
+    color: #2b6cb0; /* Darker blue on hover */
+    border-bottom: 1px solid #3182ce; /* Underline effect */
+  }
+  
+  @media (max-width: 768px) {
+    .education-title h1 {
+      font-size: 2.4rem;
+    }
+  
+    .education-title img {
+      width: 50px;
+      height: 50px;
+    }
+  
+    .education-details h2 {
+      font-size: 1.4rem;
+    }
+  
+    .education-details p {
+      font-size: 0.9rem;
+    }
+  
+    .education-map-link {
+      font-size: 0.85rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .education {
+      padding: 30px 10px;
+    }
+  
+    .education-title h1 {
+      font-size: 2rem;
+    }
+  
+    .education-container {
+      grid-template-columns: 1fr;
+    }
+  }
