@@ -1,19 +1,21 @@
 const Services_Data = [
     {
       s_no: "01",
-      s_name: "Web design",
+      s_name: "Website design: Travel website",
       s_desc: "Web development is the process of building, programming...",
       link: "https://jesminmofi-cse.github.io/Javascript-Essentials/index4.html"
     },
     {
       s_no: "02",
-      s_name: "Graphics design",
-      s_desc: "Web development is the process of building, programming..."
+      s_name: "Productive to-do list: DotDone app",
+      s_desc: "Web development is the process of building, programming...",
+      link:'https://dotdone-five.vercel.app/todos'
     },
     {
       s_no: "03",
-      s_name: "Social media",
-      s_desc: "Web development is the process of building, programming..."
+      s_name: "Graphic color gradient app",
+      s_desc: "Web development is the process of building, programming...",
+      link: 'https://color-gradient-app.vercel.app/login'
     },
     {
       s_no: "04",

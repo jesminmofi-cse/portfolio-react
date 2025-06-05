@@ -14,6 +14,8 @@ const Skills = () => {
     technologies: [
       { name: "Github", proficiency: "69%" },
       { name: "Vite", proficiency: "50%" },
+      {name :'Render', proficiency:'80%'},
+      {name : 'Vercel', proficiency: '80%'},
     ],
     tools: [
       { name: "Canva", proficiency: "80%" },
