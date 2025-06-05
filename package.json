@@ -1,5 +1,7 @@
 {
   "name": "portfolio-react",
+  "homepage": "https://jesminmofi-cse.github.io/portfolio-react",
+
   "private": false,
   "version": "1.0.0",
   "type": "module",
